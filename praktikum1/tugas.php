@@ -5,8 +5,7 @@ $json_string = '{"nama":"Aminuddin", "umur":22, "hobi":["coding","membaca","berm
 // Decode JSON menjadi PHP object
 $obj = json_decode($json_string);
 
-// Decode JSON menjadi PHP array
-$arr = json_decode($json_string, true);
+
 
 // Akses nilai menggunakan PHP object
 echo "Nama: " . $obj->nama . "<br>";
